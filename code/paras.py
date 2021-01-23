@@ -56,7 +56,7 @@ def change_params(pd, iter):
 def load_toy_params():
     pd = dict()
     # pd['data_dir'] = '/Users/chao/data/projects/local-embedding/toy/'
-    pd['data_dir'] = '/shared/data/jiaming/local-embedding/sp'
+    pd['data_dir'] = '/home/ivan/teses/abstracts/taxonomy/'
     pd['doc_file'] = pd['data_dir'] + 'input/papers.txt'
     pd['doc_keyword_cnt_file'] = pd['data_dir'] + 'input/keyword_cnt.txt'
     pd['input_dir'] = pd['data_dir'] + 'input/'
@@ -70,7 +70,7 @@ def load_toy_params():
 
 def load_dblp_params():
     pd = dict()
-    pd['data_dir'] = '/shared/data/czhang82/projects/local-embedding/dblp/'
+    pd['data_dir'] = '/home/ivan/teses/abstracts/taxonomy/'
     pd['doc_file'] = pd['data_dir'] + 'input/papers.txt'
     pd['doc_keyword_cnt_file'] = pd['data_dir'] + 'input/keyword_cnt.txt'
     pd['input_dir'] = pd['data_dir'] + 'input/'
@@ -85,7 +85,7 @@ def load_dblp_params():
 def load_sp_params():
     pd = dict()
     # pd['data_dir'] = '/shared/data/czhang82/projects/local-embedding/sp/'
-    pd['data_dir'] = '/shared/data/jiaming/local-embedding/sp/'
+    pd['data_dir'] = '/home/ivan/teses/abstracts/taxonomy/'
     pd['doc_file'] = pd['data_dir'] + 'input/papers.txt'
     pd['doc_keyword_cnt_file'] = pd['data_dir'] + 'input/keyword_cnt.txt'
     pd['input_dir'] = pd['data_dir'] + 'input/'
@@ -99,7 +99,7 @@ def load_sp_params():
 
 def load_dblp_params_method():
     pd = dict()
-    pd['data_dir'] = '/shared/data/jiaming/local-embedding/data/dblp/'
+    pd['data_dir'] = '/home/ivan/teses/abstracts/taxonomy/'
     pd['doc_file'] = pd['data_dir'] + 'input/papers.txt'
     pd['doc_keyword_cnt_file'] = pd['data_dir'] + 'input/keyword_cnt.txt'
     pd['input_dir'] = pd['data_dir'] + 'input/'
