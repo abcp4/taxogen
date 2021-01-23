@@ -20,7 +20,7 @@ def load_params(para_file):
 
 def set_default_params():
     pd = dict()
-    pd['data_dir'] = '../data/toy/'
+    pd['data_dir'] = '/home/ivan/teses/abstracts/taxonomy/'
     pd['raw_doc_file'] = pd['data_dir'] + 'raw/papers.txt'
     pd['raw_keyword_file'] = pd['data_dir'] + 'raw/keywords.txt'
     pd['doc_file'] = pd['data_dir'] + 'input/papers.txt'
